@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="big-container">
+        
+        <div id="container">
+            <div id="left-part">
+                <div id="search">
+                    <input type="text" id="search-text" placeholder="song name">
+                    <button id="search-btn">Search</button>
+                </div>
+                <div id="searched-results">yo</div>
+                <div id="songs">Now Playing</div>
+                <div class="current">
+                    <div class="current-song">yoyo</div>
+                    <div class="song-image"></div>
+                </div>
+            </div>
+
+            <div id="right-part">
+                <table id="table">
+                    <tr>
+                        <th>Song Name</th>
+                    </tr>
+
+                    <tr>
+                        <td>Brown Shortie</td>
+                    </tr>
+                    <tr>
+                        <td>So High</td>
+                    </tr>
+                    <tr>
+                        <td>Legend</td>
+                    </tr>
+                    <tr>
+                        <td>Sohne Lagde</td>
+                    </tr>
+                    <tr>
+                        <td>Moosedrilla</td>
+                    </tr>
+                    <tr>
+                        <td>Sin</td>
+                    </tr>
+                    <tr>
+                        <td>Same Beef</td>
+                    </tr>
+                    <tr>
+                        <td>Dollar</td>
+                    </tr>
+                    <tr>
+                        <td>Old Skool</td>
+                    </tr>
+                    <tr>
+                        <td>Badfella</td>
+                    </tr>                    
+                    <tr>
+                        <td>Kalimba</td>
+                    </tr>                    
+                    <tr>
+                        <td>Sleep Away</td>
+                    </tr>                    
+                    <tr>
+                        <td>Sanju</td>
+                    </tr>                    
+
+                </table>
+
+            </div>
+        </div>
+
+        
+
+        <div id="seekbar">
+            <div class="prev-next">
+                <div class="prev-button material-icons">navigate_before</div>
+                <div class="play-button material-icons">play_circle_outline</div>
+                <div class="next-button material-icons">navigate_next</div>
+            </div>
+
+            
+            <div class="seek">
+                <div class="time-stamp1">00:00</div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <div class="time-stamp2">00:00</div>
+            </div>
+
+            <div class="volume material-icons" id="volume">volume_up</div>
+            <!-- <audio id="myAudio"></audio> -->
+
+        </div>
+
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
